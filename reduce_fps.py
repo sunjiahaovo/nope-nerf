@@ -39,7 +39,7 @@ def reduce_fps(image_path, scene, reduce_rate):
     
 
 if __name__ == '__main__':
-    image_path = "/remote-home/ums_sunjiahao/nope-nerf/data/Tanks"
+    image_path = "data/Tanks"
     scene = "Ignatius"
-    reduce_rate = 7
+    reduce_rate = 9
     reduce_fps(image_path = image_path, scene = scene, reduce_rate = reduce_rate)

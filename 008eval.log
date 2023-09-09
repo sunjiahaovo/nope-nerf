@@ -1,0 +1,8 @@
+/home/perple/anaconda3/envs/nope-nerf/lib/python3.9/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: '/home/perple/anaconda3/envs/nope-nerf/lib/python3.9/site-packages/torchvision/image.so: undefined symbol: _ZNK3c107SymBool10guard_boolEPKcl'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+Traceback (most recent call last):
+  File "/home/perple/Public/nope-nerf/evaluation/eval.py", line 13, in <module>
+    from model.eval_images import Eval_Images
+  File "/home/perple/Public/nope-nerf/evaluation/../model/eval_images.py", line 10, in <module>
+    from third_party import pytorch_ssim
+ModuleNotFoundError: No module named 'third_party'
